@@ -1,0 +1,32 @@
+- type: vessel
+  id: Scylla
+  parent: BaseVesselAntag
+  name: HNT Scylla
+  description: Once a proud military destroyer, the Scylla has since been gutted, patched, and passed through black market hands. Its weapons and armor remain heavily frontal, making it a deadly predator when charging head-on, but its rear remains dangerously exposed.
+  price: 72500
+  category: Medium
+  group: BlackMarket
+  shuttlePath: /Maps/_Mono/Shuttles/BlackMarket/scylla.yml
+  guidebookPage: Null
+  class:
+  - Pirate
+  engine:
+  - AME
+
+- type: gameMap
+  id: Scylla
+  mapName: 'HNT Scylla'
+  mapPath: /Maps/_Mono/Shuttles/BlackMarket/scylla.yml
+  minPlayers: 0
+  stations:
+    Scylla:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Scylla HNT{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Pirate: [ 0, 0 ]
