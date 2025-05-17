@@ -110,14 +110,15 @@
     damage:
       types:
         Structural: 875
+        Blunt: 500
   - type: Sprite
     sprite: _Mono/Objects/SpaceArtillery/630_armorpiercing_shell_casing.rsi
     layers:
     - state: base-projectile
   - type: Explosive
-    maxIntensity: 30
-    intensitySlope: 2
-    totalIntensity: 4
+    maxIntensity: 50
+    intensitySlope: 5
+    totalIntensity: 25
     maxTileBreak: 1
   - type: PointLight
     color: orange
@@ -145,7 +146,6 @@
       types:
         Structural: 7750
         Blunt: 15000
-        Ion: 22500
   - type: Sprite
     sprite: _Mono/Objects/SpaceArtillery/630_armorpiercing_shell_casing.rsi
     layers:
@@ -165,9 +165,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: HardBomb
-    totalIntensity: 550
-    intensitySlope: 5
-    maxIntensity: 1150
+    totalIntensity: 750
+    intensitySlope: 25
+    maxIntensity: 1500
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
