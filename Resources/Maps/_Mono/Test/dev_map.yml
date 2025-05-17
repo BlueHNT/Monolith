@@ -3342,19 +3342,19 @@ entities:
       parent: 2
     - type: ApcPowerReceiver
       powerLoad: 0
-- proto: CircularShieldConsole
-  entities:
-  - uid: 547
-    components:
-    - type: Transform
-      pos: -6.5,3.5
-      parent: 2
-    - type: ApcPowerReceiver
-      powerLoad: 5
-    - type: DeviceLinkSource
-      linkedPorts:
-        545:
-        - CircularShieldConsoleSender: CircularShieldConsoleReceiver
+# - proto: CircularShieldConsole
+#   entities:
+#   - uid: 547
+#     components:
+#     - type: Transform
+#       pos: -6.5,3.5
+#       parent: 2
+#     - type: ApcPowerReceiver
+#       powerLoad: 5
+#     - type: DeviceLinkSource
+#       linkedPorts:
+#         545:
+#         - CircularShieldConsoleSender: CircularShieldConsoleReceiver
 - proto: ClosetEmergencyFilledRandom
   entities:
   - uid: 548
