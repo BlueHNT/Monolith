@@ -2439,3 +2439,40 @@ Entries:
       message: Increases radio range to 6k.
   id: 286
   time: '2025-05-16T23:54:09.0000000+00:00'
+- author: Redrover1760
+  changes:
+    - type: Add
+      message: Syndicate Medic/Agent bundle to uplink for 8 TC.
+    - type: Tweak
+      message: >-
+        Syndicate Medic suit slightly faster, gets bonus caustic/radiation
+        resistances, is slightly weaker to blunt/slash. Also has a built in
+        medhud now.
+    - type: Tweak
+      message: Bloodred TC cost 8->7.
+  id: 287
+  time: '2025-05-18T00:47:55.0000000+00:00'
+- author: starch70
+  changes:
+    - type: Add
+      message: Added USSP. This is the Hull Rot real.
+    - type: Add
+      message: Suit storages have nitrogen and oxygen tanks instead of air tanks.
+    - type: Tweak
+      message: Camelot is now USSP base instead of a secondary rogue base.
+  id: 288
+  time: '2025-05-18T00:48:56.0000000+00:00'
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: Energy gun takes less time to recharge
+    - type: Tweak
+      message: Multiphase shoots a bit faster.
+  id: 289
+  time: '2025-05-18T00:49:50.0000000+00:00'
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: TSF ships spawn with iff set to off. Except the tumour, of course.
+  id: 290
+  time: '2025-05-18T04:34:45.0000000+00:00'
