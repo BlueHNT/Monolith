@@ -1,10 +1,9 @@
 <Document>
   # SCYLLA-CLASS DESTROYER
   <Box>
-  <GuideEntityEmbed Entity="SalvageTechfabNF"/>
-  <GuideEntityEmbed Entity="WeaponTurretL85Autocannon"/>
-  <GuideEntityEmbed Entity="ConveyorBelt"/>
-  <GuideEntityEmbed Entity="CrateTradeSecureNormal"/>
+  <GuideEntityEmbed Entity="CircularShieldConsole"/>
+  <GuideEntityEmbed Entity="WeaponTurretCyrexa"/>
+  <GuideEntityEmbed Entity="WeaponTurretAK570"/>
   </Box>
     [color=#a4885c]Ship Size:[/color] Medium
 
@@ -66,7 +65,7 @@
 
   ## 2.2. Waste Loop
   <Box>
-  <GuideEntityEmbed Entity="GasPressurePump"/>
+  <GuideEntityEmbed Entity="GasPassiveGate"/>
   <GuideEntityEmbed Entity="AirAlarm"/>
   </Box>
 
@@ -85,6 +84,10 @@
 
   * - Scylla-class destroyer ships are equipped with shield systems, make sure they are running smoothly.
 
-
   * - The CYREXA turrets don a somewhat outdated acquisition system and have a tendency to bounce shots off of Scylla's cockpit room. This can be prevented by aiming well.
+
+  <Box>
+  <GuideEntityEmbed Entity="AmmoTechFab"/>
+  </Box>
+  * - Scylla-class destroyer has been also outfitted with an ammo techfab, it is quite useful out in the middle of nowhere.
 </Document>
