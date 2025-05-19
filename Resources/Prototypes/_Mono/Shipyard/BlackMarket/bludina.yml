@@ -1,0 +1,34 @@
+- type: vessel
+  id: Bludina
+  parent: BaseVesselAntag
+  name: HNT Bludina
+  description: Lesser seen rogue ship containing a mobile drug lab and medbay with EMP capability and a CYREXA mounted on it's front edge.
+  price: 99750
+  category: Medium
+  group: BlackMarket
+  shuttlePath: /Maps/_Mono/Shuttles/BlackMarket/bludina.yml
+  guidebookPage: Null
+  class:
+  - Pirate
+  - Chemistry
+  - Medical
+  engine:
+  - AME
+
+- type: gameMap
+  id: Bludina
+  mapName: 'Bludina'
+  mapPath: /Maps/_Mono/Shuttles/BlackMarket/bludina.yml
+  minPlayers: 0
+  stations:
+    Bludina:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Bludina RG{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Pirate: [ 0, 0 ]

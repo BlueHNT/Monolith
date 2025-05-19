@@ -7,6 +7,7 @@
   - ShipyardArgent
   - ShipyardSabine
   - ShipyardJudiciary
+  - ShipyardBludina
 
 - type: guideEntry
   id: ShipyardArgent
@@ -22,3 +23,8 @@
   id: ShipyardJudiciary
   name: guide-entry-shipyard-judiciary
   text: "/ServerInfo/_Mono/Guidebook/Shipyard/Judiciary.xml"
+
+- type: guideEntry
+  id: ShipyardBludina
+  name: guide-entry-shipyard-bludina
+  text: "/ServerInfo/_Mono/Guidebook/Shipyard/Bludina.xml"

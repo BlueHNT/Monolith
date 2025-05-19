@@ -1,0 +1,91 @@
+<Document>
+  # BLUDINA-CLASS MEDICAL SHIP
+  <Box>
+  <GuideEntityEmbed Entity="CircularShieldConsole"/>
+  <GuideEntityEmbed Entity="CloningPod"/>
+  <GuideEntityEmbed Entity="ChemDispenser"/>
+  </Box>
+    [color=#a4885c]Ship Size:[/color] Medium
+
+	[color=#a4885c]Recommended Crew:[/color] 1-4
+
+	[color=#a4885c]Power Gen Type:[/color] Antimatter Engine (AME)
+
+	[color=#a4885c]Expeditions:[/color] None
+
+	[color=#a4885c]IFF Console:[/color] Present [NORMAL]
+
+  "Bludina-class vessels are independently refitted support ships turned rogue mobile labs. Outfitted with chemical labs, and a compact medbay, they’re favored by outlaw groups for manufacturing and rapid treatment on the move. They come with just enough bite to discourage most would-be boarders, including an EMP turret for disabling."
+
+  # PREFLIGHT CHECKLIST
+
+  ## 1. Power supply
+
+  ## 1.1. Battery units
+  <Box>
+  <GuideEntityEmbed Entity="SMESBasic"/>
+  <GuideEntityEmbed Entity="SubstationBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
+  </Box>
+
+  - Check that the Antimatter Engine (AME) generator is functional (View below.)
+  - Check that the SMES unit is anchored to the floor.
+  - Check that the substation unit is charging.
+  - Check that the Engineering/Research APC unit's Main Breaker is toggled on.
+  - Check that the APC unit's accross several rooms Breakers are toggled on.
+  - Check that the Bridge APC unit's Main Breaker is toggled on.
+
+  ## 1.2. Antimatter Engine (AME) reactor unit.
+  <Box>
+    <GuideEntityEmbed Entity="AmeController"/>
+    <GuideEntityEmbed Entity="AmeJar"/>
+  </Box>
+
+  - Check that the AME control device is anchored to the floor and connected to a 3x3 containment shielding structure.
+  - Check that the AME control device is connected to the cable terminal of your SMES via HV.
+  - Check the fuel remaining of the generator unit.
+  - Enable Injection.
+  (Note: AMEs automatically generate power equivalent to demand.)
+
+  ## 2. Atmospherics
+
+  ## 2.1. Distribution Loop
+  <Box>
+  <GuideEntityEmbed Entity="OxygenCanister"/>
+  <GuideEntityEmbed Entity="NitrogenCanister"/>
+  <GuideEntityEmbed Entity="GasMixer"/>
+  <GuideEntityEmbed Entity="GasPressurePump"/>
+  </Box>
+
+  - Check that the O2 canister is anchored to the BLUE connector port.
+  - Check that the N2 canister is anchored to the RED connector port.
+  - Check that the gas mixer is set to the correct mixing ratio (~22% Oxygen, ~78% Nitrogen).
+  - Check that the gas mixer is set to 101.325kPa.
+  - Enable gas mixer.
+
+  ## 2.2. Waste Loop
+  <Box>
+  <GuideEntityEmbed Entity="GasPassiveGate"/>
+  <GuideEntityEmbed Entity="AirAlarm"/>
+  </Box>
+
+  - Enable waste loop pump(if applicable).
+
+  ## 3. Other checks
+  <Box>
+  <GuideEntityEmbed Entity="Gyroscope"/>
+  <GuideEntityEmbed Entity="GravityGeneratorMini"/>
+  </Box>
+
+  - Check that the gyroscope is anchored, powered, and enabled.
+  - Check that the mini gravity generator is anchored, powered, and enabled.
+
+## Sidenotes
+
+  * - Bludina-class ships lack shielding. It is not made for heavy fights.
+
+  * - EMP turret can disable enemy internals or defense systems, but must be used carefully to avoid friendly fire.
+
+  * - Medbay includes cloner, but no advanced surgical equipment. Bring supplies accordingly.
+
+</Document>
