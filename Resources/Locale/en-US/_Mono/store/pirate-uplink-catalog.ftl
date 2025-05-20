@@ -71,6 +71,9 @@ uplink-pirate-comms-computer-circuitboard-desc = A computer printed circuit boar
 uplink-pirate-security-cyborg-module-name = Security Cyborg Module
 uplink-pirate-security-cyborg-module-desc = A machete, an energy gun, and a stun baton, made specifically for borgs. Wait, doesn't TFSMC have the same thing?
 
+uplink-pirate-voicemask-name = Chameleon Voicemask
+uplink-pirate-voicemask-desc = A voicemask to engage in some subterfuge and tomfoolery... or just keep your identity hidden.
+
 # MARK: Weapons
 
 uplink-pirate-energy-cutlass-name = Energy Cutlass

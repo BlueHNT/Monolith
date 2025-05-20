@@ -367,6 +367,21 @@
       tags:
       - PirateUplink
 
+- type: listing
+  id: UplinkPirateVoicemask
+  name: uplink-pirate-voicemask-name
+  description: uplink-pirate-voicemask-desc
+  productEntity: ClothingMaskGasVoiceChameleon
+  cost:
+    Doubloon: 4
+  categories:
+  - UplinkPirateUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
 #MARK: Ammunition
 #TODO: Make boxes of ammo similar to TSFMC
 - type: listing
