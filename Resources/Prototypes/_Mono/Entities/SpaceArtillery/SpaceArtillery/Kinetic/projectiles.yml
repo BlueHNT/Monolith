@@ -110,7 +110,8 @@
     damage:
       types:
         Structural: 875
-        Blunt: 500
+        Blunt: 410
+        Piercing: 50
   - type: Sprite
     sprite: _Mono/Objects/SpaceArtillery/630_armorpiercing_shell_casing.rsi
     layers:

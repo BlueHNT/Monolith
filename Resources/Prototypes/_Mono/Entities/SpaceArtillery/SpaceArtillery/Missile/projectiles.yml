@@ -9,7 +9,7 @@
   - type: Projectile
     damage:
       types:
-        Structural: 2500
+        Structural: 2000
         Blunt: 125
         Heat: 30
   - type: Sprite
