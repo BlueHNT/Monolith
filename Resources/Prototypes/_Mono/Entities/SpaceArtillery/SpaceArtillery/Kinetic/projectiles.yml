@@ -93,6 +93,7 @@
     damage:
       types:
         Structural: 420
+        Piercing: 210
   - type: Sprite
     sprite: _Mono/Objects/SpaceArtillery/57_shell.rsi
     layers:
@@ -112,9 +113,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: HardBomb
-    totalIntensity: 2
-    intensitySlope: 1.5
-    maxIntensity: 16
+    totalIntensity: 15
+    intensitySlope: 2.5
+    maxIntensity: 15
     maxTileBreak: 1
 
 # 90mm

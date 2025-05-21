@@ -103,9 +103,9 @@
   - type: Projectile
     damage:
       types:
-        Structural: 7500
-        Heat: 1500
-        Ion: 5000
+        Structural: 500
+        Heat: 30
+        Ion: 7500
   - type: Sprite
     sprite: _Mono/Objects/SpaceArtillery/hybrid_missile.rsi
     layers:
