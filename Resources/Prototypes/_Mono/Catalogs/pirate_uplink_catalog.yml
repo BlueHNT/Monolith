@@ -382,6 +382,22 @@
       tags:
       - PirateUplink
 
+- type: listing 
+  id: UplinkPirateCash10000
+  name: uplink-pirate-cash10000-name
+  description: uplink-pirate-cash10000-desc
+  productEntity: SpaceCash10000
+  icon: { sprite: Objects/Economy/cash.rsi, state: cash_1000000 }
+  cost:
+    Doubloon: 1
+  categories:
+  - UplinkPirateUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
 #MARK: Ammunition
 #TODO: Make boxes of ammo similar to TSFMC
 - type: listing
@@ -765,6 +781,21 @@
   icon: { sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi, state: icon }
   cost:
     Doubloon: 2
+  categories:
+  - UplinkPirateWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateBlueprintLauncherRocket
+  name: uplink-pirate-blueprint-launcher-rocket-name
+  description: uplink-pirate-blueprint-launcher-rocket-desc
+  productEntity: BlueprintLauncherRocket
+  cost:
+    Doubloon: 30
   categories:
   - UplinkPirateWeapons
   conditions:

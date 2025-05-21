@@ -74,6 +74,9 @@ uplink-pirate-security-cyborg-module-desc = A machete, an energy gun, and a stun
 uplink-pirate-voicemask-name = Chameleon Voicemask
 uplink-pirate-voicemask-desc = A voicemask to engage in some subterfuge and tomfoolery... or just keep your identity hidden.
 
+uplink-pirate-cash10000-name = 10,000 spesos
+uplink-pirate-cash10000-desc = That's my boy, you made my day.
+# desc is quote
 # MARK: Weapons
 
 uplink-pirate-energy-cutlass-name = Energy Cutlass
@@ -114,6 +117,9 @@ uplink-pirate-wspr-desc = A counter to the TSFMC's Annie. Uses the same .30 subs
 
 uplink-pirate-burner-name = Burner Heavy Rifle
 uplink-pirate-burner-desc = A destructive .50 caliber rifle. Supports HE ammo. Horribly destructive.
+
+uplink-pirate-blueprint-launcher-rocket-name = RPG-7 Blueprint
+uplink-pirate-blueprint-launcher-rocket-desc = A blueprint for RPG-7 and the ammo for it. Good for long term terrorism!
 
 # MARK: Ammo
 
