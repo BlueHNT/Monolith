@@ -581,6 +581,21 @@
       tags:
       - PirateUplink
 
+- type: listing
+  id: UplinkPirateEmpRocket
+  name: uplink-pirate-Emp-Rocket-name
+  description: uplink-pirate-Emp-Rocket-desc
+  productEntity: CartridgeRocketEmp
+  cost:
+    Doubloon: 2
+  categories:
+  - UplinkPirateAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
 #MARK: Weapons
 
 - type: listing
