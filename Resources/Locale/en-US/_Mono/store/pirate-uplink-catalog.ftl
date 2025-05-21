@@ -79,7 +79,7 @@ uplink-pirate-cash10000-desc = That's my boy, you made my day.
 # desc is quote
 
 uplink-pirate-syndicate-poi-name = Syndicate Pinpointer
-uplink-pirate-syndicate-poi-name = Points to some unknown place?
+uplink-pirate-syndicate-poi-desc = Points to some unknown place?
 
 # MARK: Weapons
 
