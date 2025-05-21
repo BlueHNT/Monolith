@@ -583,8 +583,8 @@
 
 - type: listing
   id: UplinkPirateEmpRocket
-  name: uplink-pirate-Emp-Rocket-name
-  description: uplink-pirate-Emp-Rocket-desc
+  name: uplink-pirate-emp-rocketname
+  description: uplink-pirate-emp-rocket-desc
   productEntity: CartridgeRocketEmp
   cost:
     Doubloon: 2
