@@ -54,7 +54,7 @@
     ignoreWeaponGrid: true
   - type: ShipWeaponProjectile
   - type: TimedDespawn
-    lifetime: 3
+    lifetime: 4
   - type: PointLight
     radius: 3.5
     energy: 0.5
@@ -91,7 +91,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: TimedDespawn
-    lifetime: 5
+    lifetime: 10
   - type: PointLight
     radius: 3.5
     energy: 0.5
