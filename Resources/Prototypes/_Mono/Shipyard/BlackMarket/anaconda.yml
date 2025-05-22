@@ -1,12 +1,12 @@
 - type: vessel
-  id: Vega
+  id: Anaconda
   parent: BaseVesselAntag
-  name: RG Vega
-  description: A frame manufactured from the remains of mothballed TSFMC ships. Carries a single CYREXA as its main armament.
-  price: 68450
+  name: RG Anaconda
+  description: A ship built around a mass driver, with 2 swarm missile pods and basic PD armament to help.
+  price: 162500
   category: Medium
   group: BlackMarket
-  shuttlePath: /Maps/_Mono/Shuttles/BlackMarket/vega.yml
+  shuttlePath: /Maps/_Mono/Shuttles/BlackMarket/anaconda.yml
   guidebookPage: Null
   class:
   - Pirate
@@ -14,16 +14,16 @@
   - AME
 
 - type: gameMap
-  id: Vega
-  mapName: 'Vega'
-  mapPath: /Maps/_Mono/Shuttles/BlackMarket/vega.yml
+  id: Anaconda
+  mapName: 'Anaconda'
+  mapPath: /Maps/_Mono/Shuttles/BlackMarket/anaconda.yml
   minPlayers: 0
   stations:
-    Vega:
+    Anaconda:
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Vega RG{1}'
+          mapNameTemplate: 'Anaconda RG{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
