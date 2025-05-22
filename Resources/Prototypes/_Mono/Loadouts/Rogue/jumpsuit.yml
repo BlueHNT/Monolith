@@ -1,0 +1,4 @@
+- type: loadout
+  id: RogueClothingJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformRogue
