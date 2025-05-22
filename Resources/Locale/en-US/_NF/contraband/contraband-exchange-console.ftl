@@ -16,5 +16,5 @@ pirate-contraband-pallet-menu-no-goods-text = Nothing on the pad. Try again.
 pirate-contraband-pallet-menu-appraisal-label = Estimated Value:{" "}
 pirate-contraband-pallet-menu-count-label = Number of items:{" "}
 pirate-contraband-pallet-appraise-button = Appraise
-pirate-contraband-pallet-sell-button = Upload
+pirate-contraband-pallet-sell-button = Sell
 pirate-contraband-pallet-disclaimer = Slot your contraband directly onto the scanner pad. No containers, no games.
