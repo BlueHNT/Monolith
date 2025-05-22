@@ -19,3 +19,14 @@
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/ussp.rsi
   - type: Clothing
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/ussp.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformRogue
+  name: rogue field suit
+  description: A matte black tactical outfit worn by independent agents working on contracts. The red armband marks affiliation—loose as it may be.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/rogue/tactical.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/rogue/tactical.rsi
