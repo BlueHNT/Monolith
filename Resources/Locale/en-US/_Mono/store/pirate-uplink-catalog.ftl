@@ -78,9 +78,6 @@ uplink-pirate-cash10000-name = 10,000 spesos
 uplink-pirate-cash10000-desc = That's my boy, you made my day.
 # desc is quote
 
-uplink-pirate-syndicate-poi-name = Syndicate Pinpointer
-uplink-pirate-syndicate-poi-desc = Points to some unknown place?
-
 # MARK: Weapons
 
 uplink-pirate-energy-cutlass-name = Energy Cutlass
