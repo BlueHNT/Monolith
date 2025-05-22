@@ -598,7 +598,7 @@
 
 - type: listing
   id: UplinkPirateEmpRocket
-  name: uplink-pirate-emp-rocketname
+  name: uplink-pirate-emp-rocket-name
   description: uplink-pirate-emp-rocket-desc
   productEntity: CartridgeRocketEmp
   cost:

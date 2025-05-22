@@ -167,7 +167,7 @@ uplink-pirate-box-highcal-he-name = HE .50 ammunition box
 uplink-pirate-box-highcal-he-desc = A box of explosive ammunition for the Burner heavy rifle.
 
 uplink-pirate-emp-rocket-name = RPG-7 EMP Rocket
-uplink-pirate-emp-rocket-desc = A rocket with vengeance against anything electrical. Disables and discharges electrical appliances in it's radius.
+uplink-pirate-emp-rocket-desc = A rocket with vengeance against anything electrical. Disables and drains electrical items in it's radius.
 
 # MARK: Equipment
 
