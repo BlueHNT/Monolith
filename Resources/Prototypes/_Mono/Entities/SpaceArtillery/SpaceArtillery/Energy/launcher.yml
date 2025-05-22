@@ -29,11 +29,11 @@
       path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 350
+    autoRechargeRate: 250 # 2:40 to recharge
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipMediumPlasmaProjectile
-    fireCost: 500
+    fireCost: 500 # 80 shots
   - type: Destructible
     thresholds:
     - trigger:
@@ -74,8 +74,8 @@
   - type: Appearance
   - type: AmmoCounter
   - type: Battery
-    maxCharge: 40000
-    startingCharge: 40000
+    maxCharge: 60000
+    startingCharge: 60000
   - type: ExaminableBattery
   - type: WirelessNetworkConnection
     range: 500
@@ -88,11 +88,11 @@
       path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 350
+    autoRechargeRate: 200 # 5:00 to recharge
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipRubiconProjectile
-    fireCost: 500
+    fireCost: 5000 # 12 shots
   - type: Destructible
     thresholds:
     - trigger:
@@ -134,8 +134,8 @@
   - type: Appearance
   - type: AmmoCounter
   - type: Battery
-    maxCharge: 40000
-    startingCharge: 40000
+    maxCharge: 250000
+    startingCharge: 250000
   - type: ExaminableBattery
   - type: WirelessNetworkConnection
     range: 500
@@ -155,11 +155,11 @@
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 67
+    autoRechargeRate: 50 # 16:40 to recharge
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipDymereProjectile
-    fireCost: 2400
+    fireCost: 10000 # 25 shots
   - type: RadarBlip
     radarColor: "#FA4E5C"
   - type: ShipGunType

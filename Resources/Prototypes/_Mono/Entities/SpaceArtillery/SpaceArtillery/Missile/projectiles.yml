@@ -81,7 +81,7 @@
     explosionType: Default
     totalIntensity: 75
     intensitySlope: 5
-    maxIntensity: 25
+    maxIntensity: 50
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
