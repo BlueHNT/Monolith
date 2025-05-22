@@ -12,7 +12,7 @@
         Radiation: 1250
         Structural: 4250
         Heat: 350
-        Ion: 5000
+        Ion: 1500
   - type: Sprite
     sprite: _Mono/Objects/SpaceArtillery/plasmashot.rsi
     layers:
