@@ -6,10 +6,10 @@
   description: A rugged, shielded disk containing encrypted intelligence.
   components:
   - type: Sprite
-    sprite: _Mono/Objects/Devices/rogue_chits.rsi
-    state: icon
+    sprite: _Mono/Objects/Specific/Rogue/rogue_chits.rsi
+    state: chits
   - type: Item
-    sprite: _Mono/Objects/Devices/rogue_chits.rsi
+    sprite: _Mono/Objects/Specific/Rogue/rogue_chits.rsi
     size: Tiny
   - type: Stack
     count: 20

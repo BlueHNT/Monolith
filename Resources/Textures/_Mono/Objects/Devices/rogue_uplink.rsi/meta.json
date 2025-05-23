@@ -8,20 +8,19 @@
   },
   "states": [
     {
-      "name": "inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "inhand-right",
-      "directions": 4
-    },
-    {
       "name": "icon"
     },
     {
+      "name": "inhand_left",
+      "directions": 4
+    },
+    {
+      "name": "inhand_right",
+      "directions": 4
+    },
+    {
       "name": "icon-overlay",
-      "delays":
-      [
+      "delays": [
         [0.5, 0.5]
       ]
     }
