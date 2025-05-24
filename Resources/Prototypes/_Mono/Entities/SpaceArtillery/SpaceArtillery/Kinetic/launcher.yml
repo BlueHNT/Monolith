@@ -33,9 +33,10 @@
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 333 # 1:00 to recharge
-    autoRechargePause: true
-    autoRechargePauseTime: 5 # pauses recharging for 5 seconds after finishing shooting
+    autoRechargeRate: 100
+  - type: SpaceArtillery
+    powerChargeRate: 100
+    powerUsePassive: 100
   - type: Actions
   - type: CombatMode
     isInCombatMode: true
@@ -82,7 +83,11 @@
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 100 # 5 minute reload
+    autoRechargeRate: 220
+  - type: SpaceArtillery
+    powerChargeRate: 220
+    powerUsePassive: 750
+    powerUseActive: 0
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipDravonProjectile
@@ -116,7 +121,7 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
-    fireRate: 2.0
+    fireRate: 2.5
     projectileSpeed: 80
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/120mm_mortar.ogg
@@ -124,7 +129,11 @@
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 200 # 3:20 to recharge
+    autoRechargeRate: 125
+  - type: SpaceArtillery
+    powerChargeRate: 125
+    powerUsePassive: 600
+    powerUseActive: 0
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: 90mmBulletArmorPiercing
@@ -159,18 +168,22 @@
     range: 500
   - type: Gun
     fireRate: 0.0667
-    projectileSpeed: 80
+    projectileSpeed: 150
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ship_duster.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 267 # 5:00 to recharge
+    autoRechargeRate: 214
+  - type: SpaceArtillery
+    powerChargeRate: 214
+    powerUsePassive: 3500
+    powerUseActive: 0
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipTarnyxProjectile
-    fireCost: 16000 # 5 shots
+    fireCost: 17500 # low shot weapon moved back to the original spot
   - type: RadarBlip
     radarColor: "#FF9100"
     scale: 1
@@ -195,8 +208,8 @@
   - type: Appearance
   - type: AmmoCounter
   - type: Battery
-    maxCharge: 1000
-    startingCharge: 1000
+    maxCharge: 12000
+    startingCharge: 12000
   - type: ExaminableBattery
   - type: WirelessNetworkConnection
     range: 500
@@ -213,18 +226,24 @@
         - MachineLayer
   - type: Gun
     projectileSpeed: 105
-    fireRate: 0.125
+    fireRate: 1.5
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/cannon.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 200 # 06:40 to recharge
+    autoRechargeRate: 12000
+    autoRechargePause: true
+    autoRechargePauseTime: 10
+  - type: SpaceArtillery
+    powerChargeRate: 12000
+    powerUsePassive: 1500
+    powerUseActive: 0
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipCyrexaProjectile
-    fireCost: 1000 # 40 shots
+    fireCost: 6000
   - type: RadarBlip
     radarColor: "#03FC9D"
   - type: ShipGunType
@@ -261,7 +280,11 @@
       path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 167 # 10:00 to recharge
+    autoRechargeRate: 350
+  - type: SpaceArtillery
+    powerChargeRate: 350
+    powerUsePassive: 1000
+    powerUseActive: 7500
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipRailgunProjectile
