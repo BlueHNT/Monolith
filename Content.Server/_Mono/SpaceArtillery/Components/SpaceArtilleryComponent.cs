@@ -15,7 +15,7 @@ public sealed partial class SpaceArtilleryComponent : Component
     public int PowerUsePassive = 600;
 
     /// <summary>
-    /// Maximum rate at which the battery can recharge per second when connected to a powernet.
+    /// Maximum rate at which the battery can recharge when connected to a powernet.
     /// Functions as a throttle for battery regeneration, consistent with BatterySelfRechargerComponent behavior.
     /// </summary>
     [DataField("powerChargeRate"), ViewVariables(VVAccess.ReadWrite)]
