@@ -63,7 +63,7 @@
     requireNoGrid: true
     shape: circle
   - type: TimedDespawn
-    lifetime: 15
+    lifetime: 10
   - type: PointLight
     color: "#FB00FF"
   - type: EmpOnTrigger

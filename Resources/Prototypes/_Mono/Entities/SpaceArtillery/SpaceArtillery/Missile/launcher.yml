@@ -82,7 +82,7 @@
     proto: ShipMissileASM302
     fireCost: 300
   - type: SpaceArtillery
-    powerChargeRate: 350
+    powerChargeRate: 250
     powerUsePassive: 600
     powerUseActive: 0
   - type: Destructible
