@@ -30,6 +30,10 @@
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 200
+  - type: SpaceArtillery
+    powerChargeRate: 200
+    powerUsePassive: 750
+    powerUseActive: 0
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipMissileASM417
@@ -76,6 +80,10 @@
   - type: ProjectileBatteryAmmoProvider
     proto: ShipMissileASM302
     fireCost: 300
+  - type: SpaceArtillery
+    powerChargeRate: 350
+    powerUsePassive: 600
+    powerUseActive: 0
   - type: Destructible
     thresholds:
     - trigger:
@@ -131,6 +139,10 @@
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 500
+  - type: SpaceArtillery
+    powerChargeRate: 500
+    powerUsePassive: 2500
+    powerUseActive: 0
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipMissileASM557

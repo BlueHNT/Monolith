@@ -30,6 +30,10 @@
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 350
+  - type: SpaceArtillery
+    powerChargeRate: 350
+    powerUsePassive: 500
+    powerUseActive: 0
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipMediumPlasmaProjectile
@@ -89,6 +93,10 @@
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 350
+  - type: SpaceArtillery
+    powerChargeRate: 350
+    powerUsePassive: 1250
+    powerUseActive: 0
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipRubiconProjectile
@@ -156,6 +164,10 @@
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 67
+  - type: SpaceArtillery
+    powerChargeRate: 67
+    powerUsePassive: 5750
+    powerUseActive: 0
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipDymereProjectile
