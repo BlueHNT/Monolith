@@ -1,4 +1,5 @@
 # MARK: Medical
+# MARK: Medical
 
 uplink-pirate-medical-bundle-name = Interdyne Medical Bundle
 uplink-pirate-medical-bundle-desc = An assortment of autoinjectors and premium medical equipment to cover for every possible situation. Contains an elite compact defibrillator that can be used as a weapon.
@@ -29,6 +30,29 @@ uplink-pirate-combat-pen-desc = A general use shot of omnizine, packaged in a au
 
 uplink-pirate-hyperzine-name = Hyperzine Injector
 uplink-pirate-hyperzine-desc = Combat stimulants that prevent stuns and increase your movement capabilities. Lasts 30 seconds.
+
+uplink-pirate-surgery-name = Surgical Kit
+uplink-pirate-surgery-desc = A surgical kit containing the required minimum to save your friends or chop apart your enemy.
+
+# MARK: Utility
+
+uplink-pirate-syndicate-magboots-name = Blood-red Magboots
+uplink-pirate-syndicate-magboots-desc = A pair of boots that prevent slipping and, in zero gravity, allow you to move normally, at the cost of a slight slowdown. Additionally, they have jetpack functionality and come fueled, but don't last for long.
+
+uplink-pirate-syndicate-jetpack-name = Black Jetpack
+uplink-pirate-syndicate-jetpack-desc = A black jetpack. It allows you to fly around in space. Refills not included, use your fuel wisely.
+
+uplink-pirate-energy-shield-name = Energy Shield
+uplink-pirate-energy-shield-desc = Exotic energy shield that reflects almost all laser beams, as well as a little protection from bullets and other physical attacks.
+
+uplink-pirate-agent-id-card-name = Agent ID Card
+uplink-pirate-agent-id-card-desc = A modified ID card that can copy accesses from other cards and change its name and job title at-will.
+
+uplink-pirate-hypopen-name = Hypopen
+uplink-pirate-hypopen-desc = A chemical hypospray disguised as a pen, capable of instantly injecting up to 10u of reagents. Starts empty.
+
+uplink-pirate-implanter-freelance-name = Freelance Implanter
+uplink-pirate-implanter-freelance-desc = Implants a Freelance radio, allowing covert communication without a headset.
 
 uplink-pirate-surgery-name = Surgical Kit
 uplink-pirate-surgery-desc = A surgical kit containing the required minimum to save your friends or chop apart your enemy.
@@ -107,6 +131,9 @@ uplink-pirate-c20-desc = A .35 auto light SMG, packaged with a few mags.
 uplink-pirate-atreides-name = Atreides bundle
 uplink-pirate-atreides-desc = A .35 one-handed light SMG, packaged with some magazines.
 
+uplink-pirate-atreides-name = Atreides bundle
+uplink-pirate-atreides-desc = A .35 one-handed light SMG, packaged with some magazines.
+
 uplink-pirate-bulldog-name = Bulldog Bundle
 uplink-pirate-bulldog-desc = A automatic .50 shotgun, packaged with a few drums.
 
@@ -124,6 +151,8 @@ uplink-pirate-burner-desc = A destructive .50 caliber rifle. Supports HE ammo. H
 
 uplink-pirate-blueprint-launcher-rocket-name = RPG-7 Blueprint
 uplink-pirate-blueprint-launcher-rocket-desc = A blueprint for RPG-7 and the ammo for it. Good for long term terrorism!
+uplink-pirate-blueprint-launcher-rocket-name = RPG-7 Blueprint
+uplink-pirate-blueprint-launcher-rocket-desc = A blueprint for RPG-7 and the ammo for it. Good for long term terrorism!
 
 # MARK: Ammo
 
@@ -133,6 +162,8 @@ uplink-pirate-box-magazine-pistol-desc = A box filled with 4 .35 auto pistol mag
 uplink-pirate-box-magazine-light-rifle-name = Box of .30 rifle magazines
 uplink-pirate-box-magazine-light-rifle-desc = A box filled with 4 .30 rifle magazines.
 
+uplink-pirate-magazine-box-magnum-name = Box of .45 magnum speedloaders
+uplink-pirate-magazine-box-magnum-desc = A box containing 4 .45 magnum speedloaders.
 uplink-pirate-magazine-box-magnum-name = Box of .45 magnum speedloaders
 uplink-pirate-magazine-box-magnum-desc = A box containing 4 .45 magnum speedloaders.
 
@@ -150,7 +181,14 @@ uplink-pirate-box-bulldog-ammo-desc = A box containing 4 .50 pellet shotgun drum
 
 uplink-pirate-box-bulldog-slug-ammo-name = Box of .50 slug drums
 uplink-pirate-box-bulldog-slug-ammo-desc = A box containing 4 .50 slug shotgun drums.
+uplink-pirate-box-bulldog-ammo-name = Box of .50 pellet drums
+uplink-pirate-box-bulldog-ammo-desc = A box containing 4 .50 pellet shotgun drums.
 
+uplink-pirate-box-bulldog-slug-ammo-name = Box of .50 slug drums
+uplink-pirate-box-bulldog-slug-ammo-desc = A box containing 4 .50 slug shotgun drums.
+
+uplink-pirate-box-smg-magazine-name = Box of .35 auto SMG magazines
+uplink-pirate-box-smg-magazine-desc = A box filled with 3 .35 auto smg magazines.
 uplink-pirate-box-smg-magazine-name = Box of .35 auto SMG magazines
 uplink-pirate-box-smg-magazine-desc = A box filled with 3 .35 auto smg magazines.
 
@@ -186,6 +224,30 @@ uplink-pirate-webvest-desc = A webvest smuggled into the sector that hasn't been
 uplink-pirate-syndie-mask-name = Syndicate Gas Mask
 uplink-pirate-syndie-mask-desc = A smuggled into the sector tactical mask that can be connected to an air supply.
 
+# MARK: Explosives
+
+uplink-pirate-c4-name = C-4
+uplink-pirate-c4-desc = Use it to breach walls, dispose of bodies, break equipment or attach it to that pet you dislike. Comes with modifiable timer with minimum of 10 second setting.
+
+uplink-pirate-c4-bundle-name = C-4 Bundle
+uplink-pirate-c4-bundle-desc = Enough C-4 to blow your way into a vault and out through the back.
+
+uplink-pirate-emp-grenade-name = EMP Grenade
+uplink-pirate-emp-grenade-desc = A grenade designed to disrupt electronic systems. Useful for disrupting communications, security's energy weapons, and APCs when you're in a tight spot.
+
+uplink-pirate-incendiary-grenade-name = Incendiary Grenade
+uplink-pirate-incendiary-grenade-desc = Releases a spray of incendiary fragments, igniting anyone near the detonation area.
+
+uplink-pirate-shrapnel-grenade-name = Shrapnel Grenade
+uplink-pirate-shrapnel-grenade-desc = Launches a spray of sharp fragments dealing great damage against unarmored targets.
+
+# MARK: $Gambling$
+
+uplink-pirate-syndisurplus-name = Surplus Crate
+uplink-pirate-syndisurplus-desc = Contains a large amount of imported good from a company backing the Rogues. This item is non-refundable, don't argue with our lawyers.
+
+uplink-pirate-syndisupersurplus-name = Super Surplus Crate
+uplink-pirate-syndisupersurplus-desc = Contains a huge amount of imported good from a company backing the Rogues. This item is non-refundable, don't argue with our lawyers.
 # MARK: Explosives
 
 uplink-pirate-c4-name = C-4

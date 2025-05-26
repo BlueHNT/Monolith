@@ -78311,7 +78311,7 @@ entities:
     - type: Transform
       pos: 8.770891,185.11176
       parent: 2
-- proto: ClothingOuterHardsuitAtmos
+- proto: ClothingModsuitAtmostechPowerCell
   entities:
   - uid: 12300
     components:
